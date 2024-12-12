@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Home - Meghana AM</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light gray background */
+        }
+
+        /* Task Bar (Sticky Navigation Bar) */
+        .task-bar {
+            background-color: #333; /* Dark background for navigation */
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 2px -2px gray; /* Subtle shadow under navigation */
+        }
+
+        .task-bar ul {
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .task-bar ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        .task-bar ul li a {
+            text-decoration: none;
+            color: white; /* White text for links */
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .task-bar ul li a:hover {
+            color: #ffcc00; /* Golden yellow on hover */
+        }
+
+        /* Home Section */
+        #home {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #d4d6d0; /* Green background for the home section */
+            color: white;
+        }
+
+        #home h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #57b2d6; /* Golden yellow heading */
+        }
+
+        #home p {
+            font-size: 1.5em;
+            color: #ffffff; /* White text for the paragraph */
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333; /* Dark background for footer */
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="task-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="bio-data.html">Bio Data</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <header>
+            <h1>Welcome to My Resume</h1>
+            <p>Your go-to web developer and software engineer</p>
+        </header>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Meghana AM | All rights reserved.</p>
+    </footer>
+</body>
+</html>
